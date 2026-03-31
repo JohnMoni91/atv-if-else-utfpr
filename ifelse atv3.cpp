@@ -10,15 +10,15 @@ int main(){
 	c. Se não for nenhuma das opções (se for 0): “Valor neutro”.*/
 	
     setlocale(LC_ALL, "Portuguese");
-	int numero;
+	int num;
 	
     printf("Digite um número inteiro: ");
-    scanf("%d", &numero);
+    scanf("%d", &num);
 
-    if (numero > 0) {
+    if (num > 0) {
         printf("Valor positivo\n");
     }
-    else if (numero < 0) {
+    else if (num < 0) {
         printf("Valor negativo\n");
     }
     else {
