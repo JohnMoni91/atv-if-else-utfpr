@@ -10,14 +10,14 @@ int main(){
 	lado, 6 % 2 = 0, porque 6 dividido por 2 é igual a 3 e resta 0*/
 	
 	setlocale(LC_ALL, "Portuguese");
-	int numero;
+	int num;
 
-    printf("Digite um numero inteiro: ");
-    scanf("%d", &numero);
+    printf("Digite um número inteiro: ");
+    scanf("%d", &num);
 
-    if (numero % 2 == 0) {
-        printf("eh par\n");
+    if (num % 2 == 0) {
+        printf("É par\n");
     } else {
-        printf("eh impar\n");
+        printf("É impar\n");
     }
 }
